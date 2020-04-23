@@ -9,8 +9,8 @@ spec:
   type: LoadBalancer
   ports:
     - port: 80
-      targetport: 80
-  selectors:
+      targetPort: 80
+  selector:
     name: redis-pod
     app: demo-voting-app
  
